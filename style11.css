@@ -1,0 +1,184 @@
+html {
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.329);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.329);
+}
+
+.sec1 {
+    background: rgba(0, 0, 0, 0.329);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.video {
+    position: absolute;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    color: white;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+@media only screen and (min-width:360px) {
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:361px) {
+    .video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.sec1 img {
+    height: 30%;
+    width: 60%;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.sec1 button {
+    background-color: transparent;
+    height: 70px;
+    width: 190px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.sec2 {
+    background-image: url("secc2.jpg");
+    background-size: cover;
+    margin: 0;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.box2 {
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 5%;
+    color: white;
+    border: 2px solid white;
+}
+
+.box2:hover {
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.486);
+}
+
+.sec3 {
+    background-image: url("sec2.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.sec4 {
+    background-image: url("sec4.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.842);
+    padding: 0;
+    margin: 0;
+}
+
+.teamrow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.event {
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.589);
+}
+
+.event img {
+    height: 250px;
+    width: 100%;
+}
+
+.footer {
+    color: black;
+    padding-top: 20px;
+    bottom: 0;
+    float: left;
+    padding-bottom: 20px;
+    background-color: rgba(224, 224, 224, 0.582);
+    width: 100%;
+    text-align: center;
+}
+
+#team {
+    border-radius: 50%;
+    height: 210px;
+    width: 85%;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.tteam {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding: 0%;
+    margin: 2%;
+    background-color: #00000065;
+}
+
+.tteam:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.col {
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px white;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.col img {
+    height: 100px;
+    width: 100px;
+    margin: 3%;
+    border-radius: 2px;
+}
+
+.col img:hover {
+    box-shadow: 0px 0px 5px 5px rgba(155, 153, 153, 0.589);
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
