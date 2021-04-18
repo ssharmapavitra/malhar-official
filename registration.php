@@ -135,9 +135,9 @@ margin-bottom: 30px;
         <p style="margin-top: 10px;margin-bottom: 0;">(Only for candidates who are registering for chess).If you do not have this id.
                       Please create an account at <a href="chess.com">  chess.com</a> </p>
 </div>
-            <! --  <center>  <div class="form-group">
+             <center>  <div class="form-group">
   <input type="submit" class="btn  btn-lg btn" value="Submit" disabled>
-                 </div></center> -->
+                 </div></center> 
          
          </form>
     
