@@ -34,14 +34,14 @@ body {
     z-index: -1;
 }
 
-@media only screen and (min-width:360px) {
+@media only screen and (min-width:1023px) {
     .video {
         width: 100%;
         height: auto;
     }
 }
 
-@media screen and (max-width:361px) {
+@media screen and (max-width:1023px) {
     .video {
         width: auto;
         height: 100%;
